@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meet Opheniel Office: independent document, spreadsheet and presentation editors. Currently in development.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="color-scheme" content="light">
+  <title>Opheniel Software · A little clarity</title>
+  <link rel="icon" href="assets/cloud.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Opheniel Software home"><img src="assets/cloud.svg" width="38" height="38" alt=""><span>opheniel<span class="brand-sub">SOFTWARE</span></span></a>
+    <nav aria-label="Main navigation"><a href="#office">Office</a><a href="#downloads">Release status</a><a href="#about">About</a></nav>
+    <a class="header-link" href="https://github.com/Opheniel-Software">GitHub</a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">INDEPENDENT SOFTWARE. ROOM TO THINK.</p>
+        <h1 id="hero-title">A little<br><em>clarity.</em></h1>
+        <p class="hero-intro">Documents, spreadsheets, presentations.<br>A calmer place to bring your ideas together.</p>
+        <a class="button primary" href="#office">Meet Opheniel Office</a>
+        <p class="quiet hero-note">In development · Desktop-first · Local file editing</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a document, spreadsheet and presentation floating over a soft cloud">
+        <div class="cloud-halo"></div>
+        <div class="floating-paper back-paper"><span class="mini-label">SHEETS</span><div class="mini-grid"><span>Project</span><span>Plan</span><span>Design</span><span>18</span><span>Build</span><span>24</span><span>Review</span><span>12</span></div><div class="mini-bars"><i></i><i></i><i></i><i></i></div></div>
+        <div class="floating-paper main-paper"><img src="assets/docs.svg" width="48" height="48" alt=""><p class="paper-kicker">A FRESH PAGE</p><p class="paper-title">Good ideas<br>start somewhere.</p><div class="paper-line long"></div><div class="paper-line"></div><div class="paper-line long"></div><div class="paper-line short"></div><div class="paper-footer">Opheniel Docs</div></div>
+        <div class="floating-paper slide-paper"><div class="slide-orbit"></div><span class="mini-label">SLIDES</span><p>Make room<br>for the next idea.</p><div class="slide-rule"></div></div>
+        <span class="art-caption">A visual study of the suite, not an application screenshot.</span>
+      </div>
+    </section>
+    <div class="suite-strip"><div class="wrap strip-inner"><p>One suite. Three familiar starting points.</p><div><span><img src="assets/docs.svg" alt="" width="28" height="28">Docs</span><span><img src="assets/sheets.svg" alt="" width="28" height="28">Sheets</span><span><img src="assets/slides.svg" alt="" width="28" height="28">Slides</span></div></div></div>
+    <section class="office-section wrap" id="office" aria-labelledby="office-title">
+      <div class="section-heading"><p class="eyebrow">OPHENIEL OFFICE</p><h2 id="office-title">Your work, in its element.</h2><p>Three separate editors, with a shared cloudy palette.<br>Install the ones you need with the Office Manager.</p></div>
+      <div class="product-tabs" role="tablist" aria-label="Explore the Office editors">
+        <button id="tab-docs" role="tab" aria-controls="panel-docs" aria-selected="true" tabindex="0"><img src="assets/docs.svg" alt="" width="36" height="36">Docs</button>
+        <button id="tab-sheets" role="tab" aria-controls="panel-sheets" aria-selected="false" tabindex="-1"><img src="assets/sheets.svg" alt="" width="36" height="36">Sheets</button>
+        <button id="tab-slides" role="tab" aria-controls="panel-slides" aria-selected="false" tabindex="-1"><img src="assets/slides.svg" alt="" width="36" height="36">Slides</button>
+      </div>
+      <div class="product-panel" role="tabpanel" id="panel-docs" aria-labelledby="tab-docs" tabindex="0">
+        <div class="product-copy"><p class="eyebrow">OPHENIEL DOCS</p><h3>Make a thought<br>take shape.</h3><p>A dedicated editor for writing and arranging documents, with DOCX editing and PDF export.</p><ul class="feature-list"><li>Write and format documents</li><li>Work with files on your computer</li><li>Export a finished copy as a PDF</li></ul><a class="text-link" href="#downloads">View release status</a></div>
+        <div class="document-demo" aria-label="Illustrative document layout"><p class="demo-label">LAYOUT ILLUSTRATION</p><div class="demo-page"><p class="document-kicker">FIELD NOTES / CREATIVE WORK</p><h4>A clearer<br>starting point.</h4><p>A good draft leaves space for the next idea.</p><hr><p>Collect the details. Find a thread. Keep the parts that matter, and let the rest settle.</p><div class="sample-lines"></div><small>Notes for a new beginning</small></div></div>
+      </div>
+      <div class="product-panel" role="tabpanel" id="panel-sheets" aria-labelledby="tab-sheets" tabindex="0" hidden>
+        <div class="product-copy"><p class="eyebrow">OPHENIEL SHEETS</p><h3>Find the story<br>in the numbers.</h3><p>A spreadsheet editor for organizing tables and working with formulas, built around XLSX files.</p><ul class="feature-list"><li>Arrange information in worksheets</li><li>Calculate with spreadsheet formulas</li><li>Open and save local XLSX files</li></ul><a class="text-link" href="#downloads">View release status</a></div>
+        <div class="sheet-demo"><p class="demo-label">ILLUSTRATIVE DATA</p><p class="sheet-title">A small project plan</p><table><caption class="sr-only">Example project budget, with illustrative values</caption><thead><tr><th scope="col">Task</th><th scope="col">Hours</th><th scope="col">Rate</th><th scope="col">Total</th></tr></thead><tbody><tr><th scope="row">Research</th><td>6</td><td>$25</td><td>$150</td></tr><tr><th scope="row">Design</th><td>12</td><td>$25</td><td>$300</td></tr><tr><th scope="row">Build</th><td>18</td><td>$25</td><td>$450</td></tr><tr><th scope="row">Review</th><td>4</td><td>$25</td><td>$100</td></tr><tr class="total"><th scope="row">Total</th><td>40</td><td></td><td>$1,000</td></tr></tbody></table><div class="formula">=SUM(D2:D5)</div></div>
+      </div>
+      <div class="product-panel" role="tabpanel" id="panel-slides" aria-labelledby="tab-slides" tabindex="0" hidden>
+        <div class="product-copy"><p class="eyebrow">OPHENIEL SLIDES</p><h3>Give your ideas<br>a little presence.</h3><p>A separate presentation editor for arranging a slide deck and working with local PPTX files.</p><ul class="feature-list"><li>Build and arrange presentations</li><li>Work with text and slide layouts</li><li>Open and save local PPTX files</li></ul><a class="text-link" href="#downloads">View release status</a></div>
+        <div class="presentation-demo"><p class="demo-label">LAYOUT ILLUSTRATION</p><div class="demo-slide"><span>THE NEXT CHAPTER</span><h4>Ideas with<br>room to grow.</h4><p>A presentation, taking shape.</p><div class="slide-cloud"></div></div><div class="slide-thumbnails"><span class="selected">Title</span><span>The idea</span><span>What’s next</span></div></div>
+      </div>
+      <p class="compatibility-note">Office-format support is still evolving. Complex formatting and features may not round-trip exactly; keep original copies of important files.</p>
+    </section>
+    <section id="downloads" class="release-section" aria-labelledby="release-title"><div class="wrap release-layout">
+      <div><p class="eyebrow">RELEASE STATUS</p><h2 id="release-title">Taking shape.<br>Not quite ready.</h2><p>Opheniel Office is in development. Public downloads will appear here after release checks are complete.</p><p class="quiet">No account or subscription is required for local editing.</p></div>
+      <div class="release-table"><div class="release-row"><div><h3>Windows</h3><p>Office Manager, Docs, Sheets &amp; Slides</p></div><span class="status">In development</span></div><div class="release-row"><div><h3>Mac · Apple silicon</h3><p>Editor previews · Mac testing pending</p></div><span class="status">In development</span></div><div class="release-row"><div><h3>Mac · Intel</h3><p>Editor previews · Mac testing pending</p></div><span class="status">In development</span></div><details><summary>What to know before the first release</summary><p>The Windows preview targets 64-bit Windows and is unsigned. The manager needs .NET Framework 4.8; the editors need the Visual C++ x64 runtime. Mac previews target macOS 13 or later and have not been tested on Mac hardware or notarized.</p><p>The current manager installs from local packages. Online downloads and updates are not yet enabled.</p></details></div>
+    </div></section>
+    <section class="about-section wrap" id="about" aria-labelledby="about-title"><div><p class="eyebrow">A SMALL, INDEPENDENT PROJECT</p><h2 id="about-title">Built with care.<br>With credit where it’s due.</h2></div><div><p>Opheniel Software is an independent software project, starting with a calmer desktop office suite. Its focus is simple: useful tools, local files, and a little more room to think.</p><p>Opheniel Docs, Sheets and Slides build on WordCraft, GridCraft and DeckCraft by the ArtCraft Team and their contributors. Their work and required notices remain part of the story.</p><div class="about-links"><a class="text-link" href="notices.html">Credits &amp; open-source notices</a><a class="text-link" href="https://github.com/Opheniel-Software">Opheniel on GitHub</a></div></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="./"><img src="assets/cloud.svg" width="30" height="30" alt=""><span>opheniel</span></a><p>Independent software, under a quieter sky.</p><a href="notices.html">Credits &amp; notices</a><p class="footer-small">No analytics, advertising, external fonts or tracking scripts are included on this site.</p></footer>
+</body>
+</html>
